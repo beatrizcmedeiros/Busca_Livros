@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Busca Livros</title>
+</head>
+<body>
+    <header>
+        <h1>Busca Livros</h1>
+    </header>
+    <main>
+        <input type="text" placeholder="Informe o nome do livro" id="nome-livro">
+        <button id="btn-buscar"> Buscar </button>
+        <p id="obs-text">Para a busca ter resultados relevantes é recomendado pesquisar o nome exato do livro. Ex: É assim que acaba</p>
+
+        <div id="loading" class="lds-ring">
+            <div></div><div></div><div></div><div></div>
+        </div>
+
+        <section id="info-livro">
+            <h2 id="titulo-livro"></h2>
+            <div id="autor">
+                <strong>Autor(a): </strong>
+                <span id="nome-autor"></span>
+            </div>
+            <div id="descricao">
+                <p id="titulo-descricao">
+                    <strong>Descrição:</strong>
+                </p>
+                <p id="text-descricao">
+                </p>
+            </div>
+        </section>
+        <section id="info-tweets">
+            <h2>Tweets</h2>
+            <ul id="lista-tweets">
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
