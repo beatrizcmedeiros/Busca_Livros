@@ -2,13 +2,13 @@ import tweepy
 import requests
 
 #Chave de API do Google Books
-api_key = "AIzaSyCrrzTaU-xgEF-NZg5d-bv8Rf-eVzRSTZ8"
+api_key = ""
 
 #Autenticação do Twitter
-consumer_key = "mPC7cD6bfXhuO1RrnpgPIhNdT"
-consumer_secret = "xZSVsJIgGRJLycL9j2IFQwRCSm7bRVc0WQsNJXW74XOky2J453"
-access_token = "4027730247-ErsDHt7SuvINOWMWgfoorG7hEfXzgeYNzrwvzZ7"
-access_token_secret = "l7yn9GtaVpyZmMAxICEyEL2MMw23UYNuVO4VHikbAnJrN"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 # Crie a autenticação do Twitter
 auth = tweepy.OAuth1UserHandler(consumer_key, consumer_secret, access_token, access_token_secret)
